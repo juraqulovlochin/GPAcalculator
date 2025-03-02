@@ -1,0 +1,72 @@
+p {
+    display: inline;
+    text-align: center;
+    margin: 25px;
+    font-family: Arial, sans-serif;
+}
+
+#nomi {
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+#fansoni {
+    font-family: Arial, sans-serif;
+}
+
+#satryigish {
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    gap: 0px;
+}
+
+button {
+    cursor: pointer;
+    display: inline;
+    max-width: 150px;
+    max-height: 22px;
+}
+
+button:hover {
+    background-color: rgb(216, 144, 144);
+}
+
+#container {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    padding: 30px;
+}
+
+#ishchi {
+    max-width: 400px;
+    margin: 20px;
+}
+
+#satryigish {
+    text-align: center;
+    margin: auto;
+}
+
+#chiqish {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#oqqora {
+    float: right;
+    text-align: center;
+}
+
+#oq {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#qora {
+    border-radius: 0px 10px 10px 0px;
+    background-color: blue;
+}
